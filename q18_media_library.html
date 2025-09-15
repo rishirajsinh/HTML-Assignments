@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Media Library</title>
+</head>
+<body>
+
+  <h1>Media Library Collection</h1>
+  <p>This page contains my favorite images, songs, videos, and online embeds.</p>
+
+  <nav>
+    <a href="#images">Images</a> | 
+    <a href="#audio">Audio</a> | 
+    <a href="#video">Video</a> | 
+    <a href="#embeds">Embeds</a>
+  </nav>
+  <hr>
+
+  <section id="images">
+    <h2>Image Gallery</h2>
+
+    <figure>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Taj-Mahal.jpg" 
+           alt="Taj Mahal at sunrise" title="Taj Mahal" width="300">
+      <figcaption>Taj Mahal at sunrise</figcaption>
+    </figure>
+
+    <figure>
+      <img src="https://www.mountainiq.com/wp-content/uploads/2023/04/ama-dablam-himalayas.jpg" title="Himalayas" width="300">
+      <figcaption>Beautiful mountains of the Himalayas</figcaption>
+    </figure>
+
+    <figure>
+      <img src="https://cdn.britannica.com/43/189743-050-25B19F71/Great-Sphinx-Pyramid-of-Khafre-Egypt-Giza.jpg" 
+           alt="Pyramids of Giza" title="Giza Pyramids" width="300">
+      <figcaption>Pyramids of Giza</figcaption>
+   
+
+    <figure>
+      <img src="./Golden_Gate_Bridge_as_seen_from_Battery_East.jpg" 
+           alt="Golden Gate Bridge" title="Golden Gate Bridge" width="300">
+      <figcaption>Golden Gate Bridge in San Francisco</figcaption>
+    </figure>
+
+    <figure>
+      <img src="./effil.jpeg" 
+           alt="Eiffel Tower" title="Eiffel Tower" width="300">
+      <figcaption>Eiffel Tower in Paris</figcaption>
+    </figure>
+  </section>
+
+  <hr>
+
+  <section id="audio">
+    <h2>Audio Collection</h2>
+
+    <p>Song 1: (Autoplay)</p>
+    <audio controls autoplay>
+      <source src="./audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>This song starts automatically when the page loads.</p>
+
+    <p>Song 2: (Loop)</p>
+    <audio controls loop>
+      <source src="./audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>This song repeats continuously.</p>
+
+    <p>Song 3: (Controls only)</p>
+    <audio controls>
+      <source src="./audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>This song can be played manually.</p>
+  </section>
+
+  <hr>
+
+  <section id="video">
+    <h2>Video Collection</h2>
+
+    <figure>
+      <video width="400" height="250" controls poster="https://via.placeholder.com/400x250.png?text=Video+Poster+1">
+        <source src="./video.mp4" type="video/mp4">
+        Your browser does not support the video element.
+      </video>
+      <figcaption>My coding session demo</figcaption>
+    </figure>
+
+    <figure>
+      <video width="400" height="250" controls poster="https://via.placeholder.com/400x250.png?text=Video+Poster+2">
+        <source src="./video.mp4" type="video/mp4">
+        <track src="https://www.w3schools.com/html/mov_bbb_subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+        Your browser does not support the video element.
+      </video>
+      <figcaption>Explainer with subtitles</figcaption>
+    </figure>
+  </section>
+
+  <hr>
+
+  <section id="embeds">
+    <h2>External Media Embeds</h2>
+
+    <h3>YouTube Video</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vaHYMtU4TiQ?si=4o-Frny9-7yCkyOX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h3>Google Map</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235013.74843193512!2d72.41493058425353!3d23.02047409985831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1757931641743!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h3>Wikipedia Article</h3>
+    <iframe src="https://en.wikipedia.org/wiki/Taj_Mahal" 
+            width="600" height="400">
+    </iframe>
+  </section>
+
+  <hr>
+
+  <!-- Back to Top -->
+  <p><a href="#top">Back to Top</a></p>
+
+</body>
+</html>
